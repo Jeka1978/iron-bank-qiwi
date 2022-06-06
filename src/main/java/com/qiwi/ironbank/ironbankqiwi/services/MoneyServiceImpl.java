@@ -1,5 +1,6 @@
 package com.qiwi.ironbank.ironbankqiwi.services;
 
+import com.qiwi.qiwistarter.model.NotEnoughMoneyException;
 import org.springframework.stereotype.Service;
 
 /**

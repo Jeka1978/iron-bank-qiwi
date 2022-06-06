@@ -6,3 +6,4 @@ spring:
       detection-strategy: annotated
 qiwistarter:
   hello-message: QiwiQiwi!!!!!!!!
+  raven-destination: Dorn
