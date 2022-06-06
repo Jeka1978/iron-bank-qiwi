@@ -1,4 +1,8 @@
+
+
 spring:
   data:
     rest:
       detection-strategy: annotated
+qiwistarter:
+  hello-message: QiwiQiwi!!!!!!!!

@@ -13,7 +13,8 @@ public class IronBankQiwiApplication {
 
     public static void main(String[] args) {
 
-        ConfigurableApplicationContext context = SpringApplication.run(IronBankQiwiApplication.class, args);
+        System.setProperty("java.awt.headless", "false");
+        ConfigurableApplicationContext context = SpringApplication.run(IronBankQiwiApplication.class);
         System.out.println();
     }
 
