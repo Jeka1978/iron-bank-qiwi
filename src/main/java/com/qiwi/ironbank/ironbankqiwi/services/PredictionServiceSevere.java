@@ -7,10 +7,10 @@ import org.springframework.stereotype.Service;
  * @author Evgeny Borisov
  */
 @Service
-@Profile("WINTER_IS_COMING")
-public class PredictionServiceImpl implements PredictionService {
+@Profile("WINTER_IS_HERE")
+public class PredictionServiceSevere implements PredictionService {
     @Override
     public boolean willSurvive(String heroName) {
-        return !heroName.toLowerCase().contains("stark");
+        return heroName.toLowerCase().contains("lanister");
     }
 }

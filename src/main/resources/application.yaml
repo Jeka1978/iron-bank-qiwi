@@ -4,6 +4,9 @@ spring:
   data:
     rest:
       detection-strategy: annotated
+  aop:
+    proxy-target-class: false
 qiwistarter:
   hello-message: QiwiQiwi!!!!!!!!
   raven-destination: Dorn
+  exception-package-name: com.qiwi.ironbank.ironbankqiwi.services
