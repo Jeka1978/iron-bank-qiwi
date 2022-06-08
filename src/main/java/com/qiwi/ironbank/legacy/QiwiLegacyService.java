@@ -1,5 +1,7 @@
 package com.qiwi.ironbank.legacy;
 
+import org.reflections.Reflections;
+
 import javax.annotation.PostConstruct;
 
 /**

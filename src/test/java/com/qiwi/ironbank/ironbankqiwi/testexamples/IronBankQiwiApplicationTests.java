@@ -1,9 +1,11 @@
 package com.qiwi.ironbank.ironbankqiwi.testexamples;
 
 import com.qiwi.ironbank.ironbankqiwi.QiwiTestConf;
+import com.qiwi.ironbank.ironbankqiwi.services.IronBankService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.context.ApplicationContext;
 import org.springframework.test.context.ActiveProfiles;
 
@@ -18,8 +20,10 @@ class IronBankQiwiApplicationTests {
         System.setProperty("java.awt.headless", "false");
     }
 
+
     @Autowired
     ApplicationContext context;
+
 
     @Test
     void contextLoads() {

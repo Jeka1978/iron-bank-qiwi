@@ -12,11 +12,13 @@ import org.springframework.context.annotation.Configuration;
  * @author Evgeny Borisov
  */
 @Configuration
-@ComponentScan(lazyInit = true,basePackages = "com.qiwi.ironbank.ironbankqiwi.services")
-//@EnableAutoConfiguration
+@ComponentScan(lazyInit = true,basePackages = "com.qiwi")
+@EnableAutoConfiguration
 public class QiwiTestConf {
     @Bean
     public float myAFloat() {
         return 12f;
     }
+
+
 }
