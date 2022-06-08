@@ -18,7 +18,8 @@ public class IronBankQiwiApplication {
 
     public static void main(String[] args) {
 
-        System.setProperty("java.awt.headless", "false");
+        //spring.profiles.active
+//        System.setProperty("java.awt.headless", "false");
         ConfigurableApplicationContext context = SpringApplication.run(IronBankQiwiApplication.class);
         System.out.println();
         System.out.println("**********");
